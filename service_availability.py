@@ -86,6 +86,5 @@ class Service_Availability:
 
 
 if __name__ == '__main__':
-
     sa = Service_Availability()
     print(sa.just_watch)
