@@ -3,7 +3,8 @@ Senscritique Scraper
 
 #### Info
 Provide a senscritique.com list url  
-=> Generate a csv list  
+=> Generate a .csv
+=> Possibility to add a column called 'services' displaying streaming platform hosting that movie in Real Time
 
 #### Installation
     python3.10 -m pip install -r requirements.txt  
@@ -24,3 +25,4 @@ Only working for movies
 #### Remaining work
 - Handle async for scraping
 - Multi pages lists
+- Add other types of content
