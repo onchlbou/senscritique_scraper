@@ -3,13 +3,13 @@ Senscritique Scraper
 
 #### Info
 Provide a senscritique.com list url  
-=> Generate a .csv
-=> Possibility to add a column called 'services' displaying streaming platform hosting that movie in Real Time
+=> Generate a .csv  
+=> Possibility to add a column called 'services' displaying streaming platform hosting that movie in Real Time  
 
-#### Installation
+#### Installation  
     python3.10 -m pip install -r requirements.txt  
 
-#### Execution
+#### Execution  
     python3.10 main.py -h                                                                     # Get help  
     python3.10 main.py --url="https://www.senscritique.com/films/tops/top111"                 # To get a csv of the movies   
     python3.10 main.py --url="https://www.senscritique.com/films/tops/top111" --show-services # To append services availables   
